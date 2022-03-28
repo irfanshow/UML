@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T05:58:45.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.50" etag="zp_kfq_StijbOVNV6vBv" version="17.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-03-28T06:00:38.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.50" etag="70jvlx3cZN8R6xuTlFQ5" version="17.2.1" type="github" pages="10">
   <diagram id="tR4rK2wgahlx95Dr8t-Z" name="UseCase">
     <mxGraphModel dx="1424" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -427,6 +427,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="1CTu9oo3ExjeX4I6BO0R-1" value="Activity Diagram : Melakukan simpanan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="470" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -554,6 +557,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="rXY_Jvw5UP8HDlxbA6c0-1" value="Activity Diagram : Melakukan pinjaman" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="470" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -621,6 +627,80 @@
               <mxPoint x="414" y="380" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fsc8nrlMm4rjq5WsDpK4-1" value="Activity Diagram : Melihat informasi anggota koperasi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="470" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Info(Admin)" id="dQWLx3QW02--hju2gTCx">
+    <mxGraphModel dx="997" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Sistem" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="200" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Menampilkan Menu Anggota Koperasi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="44" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Menampilkan Informasi Anggota Koperasi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="44" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="88" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="4" target="5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="480" as="sourcePoint" />
+            <mxPoint x="130" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Database" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="510" y="130" width="200" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Mencari Data Anggota Koperasi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Anggota" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="200" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="9">
+          <mxGeometry x="85" y="55" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="9" source="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Klik Menu Anggota Koperasi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="380" />
+              <mxPoint x="414" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kJ-9xDGM5fSZKeiWhvQ8-15" value="Activity Diagram : Melihat informasi anggota koperasi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="470" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -698,6 +778,9 @@
             <mxPoint x="440" y="350" as="sourcePoint" />
             <mxPoint x="490" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ys8JXra1y09ibdEfHCSs-2" value="Activity Diagram : Menghubungi&amp;nbsp; customer service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-90" width="470" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -805,6 +888,9 @@
             <mxPoint x="390" y="800" as="sourcePoint" />
             <mxPoint x="440" y="750" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G0r622SCpbYxgNWeEwgE-1" value="Activity Diagram : Melakukan backup data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="470" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
