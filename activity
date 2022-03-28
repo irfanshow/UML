@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T04:18:14.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.50" etag="rIyxzl4SM_4YfnDkOJtx" version="17.2.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-28T05:35:35.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.50" etag="OFdf3cb8gtzgOL6jol1Q" version="17.2.1" type="github" pages="4">
   <diagram name="Pengolahan Data" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1173" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="on7rZzQdFUdFpij6fFKw-1" value="Petugas" style="swimlane;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="on7rZzQdFUdFpij6fFKw-1" value="Anggota" style="swimlane;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
         <mxCell id="on7rZzQdFUdFpij6fFKw-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=15;" vertex="1" parent="on7rZzQdFUdFpij6fFKw-1">
