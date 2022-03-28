@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T05:52:44.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.50" etag="Xdoh1X1ODTNVvXAn9HV8" version="17.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-28T05:53:34.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.50" etag="9Wsm1ggDndc4kXE2-Z10" version="17.2.1" type="github" pages="3">
   <diagram name="Pengolahan Data" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1173" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="688" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Petugas" style="swimlane;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="nTi69vAv9hdjz7tgZugi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="2" source="5" target="3ZR6XyeaBeNC3nXmucRP-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=15;" parent="2" vertex="1">
           <mxGeometry x="125" y="52" width="30" height="30" as="geometry" />
@@ -28,20 +31,42 @@
         <mxCell id="4" value="DataBase" style="swimlane;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
+        <mxCell id="nTi69vAv9hdjz7tgZugi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="4" source="3ZR6XyeaBeNC3nXmucRP-46" target="3ZR6XyeaBeNC3nXmucRP-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3ZR6XyeaBeNC3nXmucRP-46" value="Menyimpan data simpan pinjam" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="4">
           <mxGeometry x="50" y="262" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3ZR6XyeaBeNC3nXmucRP-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=15;" vertex="1" parent="4">
-          <mxGeometry x="125" y="402" width="30" height="30" as="geometry" />
+          <mxGeometry x="120" y="402" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3ZR6XyeaBeNC3nXmucRP-41" value="Activity Diagram : Melakukan pengolahan data simpan pinjam" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="370" y="98" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nTi69vAv9hdjz7tgZugi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="3ZR6XyeaBeNC3nXmucRP-42" target="3ZR6XyeaBeNC3nXmucRP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTi69vAv9hdjz7tgZugi-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.546;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3ZR6XyeaBeNC3nXmucRP-43" target="3ZR6XyeaBeNC3nXmucRP-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="440" as="sourcePoint" />
+            <mxPoint x="570" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="597" y="360" />
+              <mxPoint x="305" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTi69vAv9hdjz7tgZugi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="3ZR6XyeaBeNC3nXmucRP-44" target="3ZR6XyeaBeNC3nXmucRP-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTi69vAv9hdjz7tgZugi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="3ZR6XyeaBeNC3nXmucRP-45" target="3ZR6XyeaBeNC3nXmucRP-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="MiVJkE1Ic_YRpg7TQkqE" name="laporan">
-    <mxGraphModel dx="475" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="688" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
