@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T07:13:15.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" version="20.2.3" etag="FSCwDICa9D2hNpANvOFj" type="github"><diagram id="QRVe5Da74wr7QkqIcRjL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-23T07:24:09.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="TdguQhE0Zg_a1MuWUMZA" version="20.2.3" type="github">
+  <diagram id="QRVe5Da74wr7QkqIcRjL" name="Page-1">
+    <mxGraphModel dx="831" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="490" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-7" value="Mengimport model konstruksi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-8" value="Memanipulasi model secara real time" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-9" value="&lt;b&gt;Sistem Visualisasi Model Konstruksi Berbasis Virtual Reality&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EbUwg8tWAvbMEIyPDcag-1" target="EbUwg8tWAvbMEIyPDcag-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="220" as="sourcePoint" />
+            <mxPoint x="480" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EbUwg8tWAvbMEIyPDcag-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="180" as="sourcePoint" />
+            <mxPoint x="310.176730869905" y="186.9321400446106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-13" value="Menyimpan model konstruksi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-14" value="Mengeksport model konstruksi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.035;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EbUwg8tWAvbMEIyPDcag-1" target="EbUwg8tWAvbMEIyPDcag-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="179.3023255813954" as="sourcePoint" />
+            <mxPoint x="330.14549394982737" y="172.78393051396154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbUwg8tWAvbMEIyPDcag-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.076;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EbUwg8tWAvbMEIyPDcag-1" target="EbUwg8tWAvbMEIyPDcag-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="182.67513368983964" as="sourcePoint" />
+            <mxPoint x="474.20000000000005" y="233.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
