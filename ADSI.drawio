@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T14:29:06.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="qhNrFiDUkoumiyZPSm7V" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T14:29:19.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="6sc2FTwiHfG4nPVc6fav" version="21.1.8" type="github">
   <diagram name="Page-1" id="51v7J1IuMdtLutVoWwgX">
     <mxGraphModel dx="1009" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eYuF7EEmARmG8QKpsHr8-2" value="Fugnsgional&#xa;&#xa;&#xa;Anggota :&#xa;1.Daftar Membership&#xa;2.MemPerbarui Membership (setelah 2 tahun)&#xa;3.Memilih Paket&#xa;a.Paket&#xa;b.Non Paket&#xa;4.Melihat durasi latihan/paket yang telah dilaksanakan&#xa;&#xa;&#xa;Trainer :&#xa;1.Melihat durasi latihan/paket yang telah dilaksanakan&#xa;&#xa;&#xa;&#xa;&#xa;Petugas :&#xa;1.Mencatat Kehadiran&#xa;2.Menulis Catatan kemajuan" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="320" height="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
